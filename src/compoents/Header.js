@@ -9,11 +9,21 @@ const Header = () => {
     <div className='logoContainer'>
         <img src={punkLogo} className='punkLogo' alt=''/>
     </div>
+
     <div className='searchBar'>
         <div className='searchIconContainer'>
             <img src={searchIcon} alt=''/>
         </div>
-        <input className='searchInput' placeholder='Collection, item or user...'/>
+        <input
+        className='searchInput'
+        placeholder='Collection, item or user...'
+        />
+    </div>
+
+    <div className='headerItems'>
+        <p>Drops</p>
+        <p>Marketplace</p>
+        <p>Create</p>
     </div>
     </div>
   )
